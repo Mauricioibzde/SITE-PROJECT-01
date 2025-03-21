@@ -1,0 +1,9 @@
+@import url(global.css);
+@import url(header.css);
+@import url(mobile.css);
+
+/*utilitys*/
+
+.border-bottom {
+    border-bottom: solid 1px white;
+}
