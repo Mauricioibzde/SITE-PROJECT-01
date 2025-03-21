@@ -1,0 +1,73 @@
+aside {
+    width: 50%;
+
+
+
+
+    .text-aside {
+        & h1 {
+            padding-top: 1.5rem;
+            font-size: var(--text-xl);
+        }
+
+        & p {
+            padding-block: 1.5rem;
+            font-size: var(--text-sm);
+        }
+    }
+
+    .btn-aside {
+        padding-block: 2rem;
+        display: flex;
+        gap: 3rem;
+
+
+
+
+
+
+    }
+
+    & .grafic {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-auto-flow: column;
+        margin-bottom: 3rem;
+        border-top: solid 0.5px rgb(114, 114, 114);
+
+        &.next {
+            display: flex;
+        }
+
+
+        & div {
+            display: grid;
+
+            & .next {
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+
+            }
+
+
+
+
+            & h2 {
+                padding-top: 1rem;
+                justify-self: flex-start;
+                font-size: var(--text-sm);
+
+
+
+            }
+
+
+        }
+
+
+    }
+
+
+}

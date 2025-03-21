@@ -1,0 +1,163 @@
+.ultra-high {
+    display: grid;
+    background-color: #000000;
+    padding-top: 2rem;
+
+& .galery-photos {
+    display: flex;
+    gap: 3rem;
+
+}
+}
+.ultra-high-cards {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+
+    & .ultra-high-card {
+        border-left: solid 1px var(--color-extra);
+        padding-inline: 1.5rem;
+
+        & h2 {
+            font-size: var(--text-sm);
+        }
+
+        & p {
+            padding-block: .5rem;
+            color: var(--text-gray);
+        }
+
+        & h3 {
+            color: var(--color-extra);
+            font-size: 3.1875rem;
+        }
+
+    }
+
+
+}
+
+.card-big {
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+
+
+    & article {
+        grid-column: span 2;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+         & .btn-inspiration {
+            padding-bottom: 3rem;
+         }
+
+        & p {
+            padding-block: 1.5rem;
+            text-align: justify;
+            max-width: 75%;
+        }
+    }
+
+
+
+}
+
+
+.card-big-content {
+    padding: 1rem;
+
+    & header {
+
+        
+        & span {
+            font-weight: 100;
+            padding-inline: .5rem;
+            padding-block: 2rem;
+            
+          
+        }
+        & h2 {
+            font-size: var(--text-xl);
+        }
+    }
+
+
+    & figure {
+       
+   
+
+        & h4 {
+            font-size: var(--text-sm);
+            color: var(--text-gray);
+            
+        
+
+
+        }
+    }
+
+
+
+    & .icons-card-bottom {
+
+        width: 50%;
+        padding-block: 0 1.5rem;
+
+    
+    }
+
+    & figure {
+        width: 100%;
+        & span {
+            font-weight: 600;
+        }
+        & figcaption {
+        color: var(--text-gray);
+      }
+
+      & .big-contents-buttons {
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+
+        & a {
+          /*  width: 20rem;*/
+            
+        }
+      }
+
+    }
+
+
+    & article {
+        width: 100%;
+        height: 100%;
+        grid-column: span 2;
+        text-align: center;
+
+        & p {
+            padding-block: 1rem;
+        }
+
+
+
+        & .btn-inspiration {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+
+
+}

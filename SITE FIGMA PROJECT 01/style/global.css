@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font-family);
+}
+span {
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 700;
+    
+}
+.container {
+padding-inline: 5rem;  
+
+}
+
+body {
+    background-color: #252525;
+    overflow-x: hidden;
+}
+
+h1 , h2 {
+  
+   
+   
+    
+}
+
+h1 {
+    font-size: var(--text-xl);
+    font-family: var(--font-family);
+}
+
+h2 {
+    font-size: var(--text-md);
+
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-family: inherit;
+    color: var(--white-color);
+}
+:root {
+    --text-xl: 2.625rem;
+    --text-md: 1.3125rem;
+    --title-sm:1rem;
+    --font-family: Arial, sans-serif;
+
+
+    --full-btn-color:#2DFF28;
+    --white-color: white;
+    --black-color: rgb(0, 0, 0);
+    --text-gray:#C1C1C1;
+    --text-gray-high:#1B1B1B;
+    --gray-background:#252525;
+    --text-figcaption:#c1c1c1;
+    --color-extra:#323232;
+    
+}
+
+h1 {
+
+    font-size: inherit;
+    color: var(--white-color);
+    font-size: var(--text-xl)
+
+}
+
+h2 {
+    color: var(--white-color);
+    font-size: var(--text-md);
+    font-family: var(--font-family);
+}
+
+h4 , h3 , p {
+    font-family: var(--font-family);
+}
+
+p {
+
+    color: var(--text-figcaption);
+}
+
+.button-view-details {
+    margin-top: 4rem;
+   
+   & a {
+    text-decoration: underline;
+    padding: 1rem;
+  
+
+
+    }
+
+    a:hover {
+     
+        border-bottom: 1rem;
+    }
+}
+
+
+
+.green-btn {
+
+    & a {
+        background-color: var(--full-btn-color);
+        width: 9.75rem;
+        height: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1.5rem;
+        height: 3rem;
+        color: black;
+
+      
+    }
+    & a:hover {
+        box-shadow: 0px 0px 10px var(--full-btn-color);
+    }
+
+    }
+
+    .transparent-btn {
+        & a {
+            display: flex;
+            background-color: var(--white-color);
+            width: 9.75rem;
+            height: 3rem;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 1.5rem;
+            color: black;
+            transition: 0.2s;
+            gap: .5rem;
+        }
+
+        & a:hover {
+            background-color: var(--color-extra);
+            color: var(--white-color);
+            box-shadow: 0px 0px 10px var(--full-btn-color);
+        
+           
+           
+        }
+    }
+
+
+    .white-btn {
+        a {
+
+            display: flex;
+            background-color: var(--white-color);
+            width: 9.75rem;
+            height: 3rem;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 1.5rem;
+            color: black;
+            transition: 0.2s;
+
+        }
+
+        & a:hover {
+            background-color: var(--color-extra);
+            color: var(--white-color);
+            box-shadow: 0px 0px 10px var(--full-btn-color);
+        
+           
+           
+        }
+
+        
+    }
+
+
+    .gray-btn {
+        display: flex;
+        gap: 1rem;
+        padding-block: 2rem;
+
+        & a {
+            display: flex;
+            background-color: var(--color-extra);
+            width: 9.75rem;
+            height: 3rem;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 1.5rem;
+            color: black;
+            transition: 0.2s;
+        }
+
+        & a:hover {
+            background-color: var(--white-color);
+            transition-delay: 0.2s;
+            box-shadow: 0px 0px 10px #989898;
+
+        }
+
+        }
+
+
+    
